@@ -1,4 +1,4 @@
-# FOCOS---Site-Blocker
+# FOCOS(Site-Blocker)
 
 FOCOS – Desktop Site Blocker & Focus App
 

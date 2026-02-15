@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Navigation from './components/Navigation';
 import HeroSection from './components/HeroSection';
-import Dashboard from './components/Dashboard';
 import ControlCenter from './components/ControlCenter';
 import PomodoroMode from './components/PomodoroMode';
 import StrictMode from './components/strictMode';
@@ -198,12 +197,7 @@ export default function App() {
       
       <HeroSection />
       
-      <Dashboard 
-        blockedSites={blockedSites}
-        blockDuration={blockDuration}
-        isBlocking={isBlocking}
-        mostUsedApp={mostUsedApp}
-      />
+     
       
       {/* Mode Selection */}
       <section className="py-12 px-6">
